@@ -257,3 +257,113 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+.container__service__head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1007px;
+  margin-bottom: 90px;
+  margin-top: 40px;
+}
+
+.container__service__head-title{
+  font-family: 'Inika';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  width: 306px;
+}
+
+.container__service__head-btn{
+  width: 161px;
+  height: 50px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: 'Inika';
+  font-size: 20px;
+  line-height: 26px;
+  color: #E06733;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.container__service__head-btn:hover{
+  background-color: #E06733;
+  color: #fff;
+  transition: .5s;
+}
+
+.container__service__head-btn:focus{
+  background-color: #E06733;
+  color: #fff;
+  transition: .5s;
+}
+
+.container__service__head-btn-m{
+  margin: 0 38px;
+}
+
+.container__service__main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container__service__main-box{
+  margin-bottom: 55px;
+}
+
+.container__service__main-box-img{
+  background-image: url(./img/first.png);
+  width: 330px;
+  height: 350px;
+  border-radius: 20px 20px 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container__service__main-box-img-two{
+  background-image: url(./img/two.png);
+}
+
+.container__service__main-box-img-three{
+  background-image: url(./img/three.png);
+}
+
+.container__service__main-box-img-four{
+  background-image: url(./img/four.png);
+}
+
+.container__service__main-box-img-five{
+  background-image: url(./img/five.png);
+}
+
+.container__service__main-box-img-six{
+  background-image: url(./img/six.png);
+}
+
+.container__service__main-box-border{
+  border: 1px solid #E3E1D5;
+  border-radius: 0px 0px 20px 20px;
+  width: 330px;
+  text-align: center; 
+}
+
+.container__service__main-box-title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #E06733;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container__service__main-box-text{
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+  margin-bottom: 36px;
+}
