@@ -127,8 +127,133 @@ body{
   font-size: 16px;
   line-height: 50px;
   color: #010201;
+  transition: .5s;
 }
 
-.navigation-link:hover, :focus{
+.navigation-link:hover{
   color: #E06733;
+  transition: .5s;
+}
+
+.navigation-link:focus{
+  color: #E06733;
+}
+
+/* header end */
+
+/* section welcome start */
+
+.welcome{
+ background-color: #EDF2EC;
+}
+.container__welcome{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 532px;
+}
+
+.container__welcome-img{
+  width: 449px;
+  height: 407px;
+  background-image: url(./img/leafs.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container__welcome-info{
+  width: 549px;
+  height: 340px;
+}
+
+.container__welcome-title{
+  color: #717171;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  margin-bottom: 42px;
+}
+
+.container__welcome-title-color{
+  color: #499A18;
+}
+
+.container__welcome-text{
+  margin-bottom: 48px;
+}
+
+.btn{
+  width: 158px;
+  height: 44px;
+  border: 2px solid #E06733;
+  border-radius: 10px; 
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000; 
+  background-color: transparent;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.btn:hover{
+  background: #E06733;
+  color: #fff;
+  transition: .5s;
+}
+
+/* section welcome end */
+
+/* section about start*/
+
+.about{
+  background-color: #fff;
+}
+
+.container__about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 666px;
+}
+
+.container__about-info{
+  width: 605px;
+}
+
+.container__about-title{
+  width: 463px;
+  font-family: 'Inika';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  margin-bottom: 40px;
+}
+
+.container__about-title-color{
+  color: #E06733;
+}
+
+.container__about-text{
+  line-height: 30px;
+}
+
+.container__about-img{
+  width: 464px;
+  height: 479px;
+  background-image: url(./img/houseplant.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* section about end*/
+
+.service{
+  background-color: #EDF2EC;
+}
+
+.container__service{
+  height: 1300px;
+  display: flex;
+  flex-direction: column;
 }
