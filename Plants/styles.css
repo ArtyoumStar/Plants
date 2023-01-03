@@ -248,6 +248,8 @@ body{
 
 /* section about end*/
 
+/* section service start*/
+
 .service{
   background-color: #EDF2EC;
 }
@@ -366,4 +368,102 @@ body{
   line-height: 20px;
   color: #717171;
   margin-bottom: 36px;
+}
+
+/* section service end*/
+
+.prices{
+  background-color: #fff;
+}
+
+.container__prices{
+  display: flex;
+  justify-content: space-between;
+  height: 560px;
+}
+
+.container__prices-left{
+  margin-top: 40px;
+}
+
+.container__prices-right{
+  margin-top: 40px;
+}
+
+.container__prices-left-title{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+.accordion{
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+  width: 332px;
+}
+
+.accardion__wrapper{
+  margin: 34px 41px;
+}
+
+.accordion-item{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  background: #EDF2EC;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 32px;
+}
+
+.accordion-item-header{
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  margin-left: 40px;
+}
+
+.accordion-item::after{
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url(./img/accordionbtndown.png);
+  top: 17px;
+  right: 40px;
+}
+
+.container__prices-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.container__prices-title{
+  text-align: right;
+  width: 408px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  margin-bottom: 38px;
+}
+
+.title-color{
+  color: #499A18;
+}
+
+.container__prices-img{
+  margin-top: 39px;
+  background-image: url(./img/leafsprices.png);
+  width: 152px;
+  height: 175px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
