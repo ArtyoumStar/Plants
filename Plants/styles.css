@@ -372,6 +372,8 @@ body{
 
 /* section service end*/
 
+/* section prices start*/
+
 .prices{
   background-color: #fff;
 }
@@ -467,3 +469,68 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* section prices end*/
+
+/* section contacts start*/
+
+.contacts{
+  background-color: #EDF2EC;
+}
+
+.container__contacts{
+  display: flex;
+  height: 550px;
+}
+
+.wrapper-img{
+  display: flex;
+  align-items: flex-end;
+}
+
+.container__contacts-img{
+  background-image: url(./img/contact_woman.png);
+  width: 400px;
+  height: 497px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  bottom: 0;
+}
+
+.container__contacts-title{
+  font-family: 'Inika';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  margin: 55px 64px 0 113px;
+}
+
+.container__contacts__dropdown-button{
+  position: relative;
+  width: 450px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding-left: 20px;
+  color: #717171;
+  background: #D6E7D2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  cursor: pointer;
+  margin-top: 143px;
+}
+
+.container__contacts__dropdown-button::after{
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url(./img/dropdown.png);
+  top: 17px;
+  right: 35px;
+}
+
