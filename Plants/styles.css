@@ -2,6 +2,7 @@
 
 html{
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   
   *,
@@ -534,3 +535,51 @@ body{
   right: 35px;
 }
 
+/* section contacts end*/
+
+/* section footer start*/
+
+.footer{
+  background-color: #fff;
+}
+
+.container__footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 130px;
+}
+
+.container__footer-info-list{
+  display: flex;
+  gap: 20px;
+}
+
+.container__footer-info-item{
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.container__footer-info-link{
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.footer-title{
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.container__footer-social-list{
+  display: flex;
+  gap: 23px;
+}
+
+.container__footer-social-link-inst{
+  width: 40px;
+  height: 40px;
+  background-image: url(./img/inst.png);
+}
