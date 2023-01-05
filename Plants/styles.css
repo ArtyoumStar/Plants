@@ -129,6 +129,7 @@ body{
   line-height: 50px;
   color: #010201;
   transition: .5s;
+  margin-right: 1px;
 }
 
 .navigation-link:hover{
@@ -172,7 +173,7 @@ body{
   font-weight: 700;
   font-size: 45px;
   line-height: 50px;
-  margin-bottom: 42px;
+  margin-bottom: 45px;
 }
 
 .container__welcome-title-color{
@@ -228,6 +229,7 @@ body{
   font-size: 40px;
   line-height: 52px;
   color: #499A18;
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 
@@ -266,8 +268,8 @@ body{
   justify-content: space-between;
   align-items: center;
   width: 1007px;
-  margin-bottom: 90px;
-  margin-top: 40px;
+  margin-bottom: 85px;
+  margin-top: 39px;
 }
 
 .container__service__head-title{
@@ -291,6 +293,9 @@ body{
   color: #E06733;
   transition: .5s;
   cursor: pointer;
+  margin-right: 2px;
+  margin-top: 4px;
+  padding-left: 2px;
 }
 
 .container__service__head-btn:hover{
@@ -306,7 +311,8 @@ body{
 }
 
 .container__service__head-btn-m{
-  margin: 0 38px;
+  margin-left: 30px;
+  margin-right: 32px;
 }
 
 .container__service__main{
@@ -399,6 +405,7 @@ body{
   line-height: 48px;
   color: #000000;
   margin-bottom: 60px;
+  margin-top: 5px;
 }
 
 .accordion{
@@ -455,11 +462,16 @@ body{
   font-size: 40px;
   line-height: 50px;
   color: #000000;
-  margin-bottom: 38px;
+  margin-bottom: 37px;
+  margin-top: 5px;
 }
 
 .title-color{
   color: #499A18;
+}
+
+.container__prices__head-btn{
+  margin-right: 0px;
 }
 
 .container__prices-img{
@@ -481,6 +493,7 @@ body{
 
 .container__contacts{
   display: flex;
+  justify-content: space-between;
   height: 550px;
 }
 
@@ -505,7 +518,7 @@ body{
   font-size: 40px;
   line-height: 52px;
   color: #499A18;
-  margin: 55px 64px 0 113px;
+  margin: 57px 65px 0 111px;
 }
 
 .container__contacts__dropdown-button{
@@ -522,7 +535,7 @@ body{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: none;
   cursor: pointer;
-  margin-top: 143px;
+  margin-top: 147px;
 }
 
 .container__contacts__dropdown-button::after{
@@ -571,15 +584,29 @@ body{
   font-size: 20px;
   line-height: 50px;
   color: #000000;
+  margin-left: 16px;
 }
 
 .container__footer-social-list{
   display: flex;
-  gap: 23px;
 }
 
-.container__footer-social-link-inst{
-  width: 40px;
-  height: 40px;
-  background-image: url(./img/inst.png);
+.container__footer-social-list:last-child{
+  margin-right: 0px;
+}
+
+.container__footer-social-item{
+  margin-right: 26px;
+}
+
+.container__footer-social-item:last-child{
+  margin-right: 0px;
+}
+
+.container__footer-social-item:first-child{
+  margin-right: 31px;
+}
+
+.container__footer-social-item:nth-child(2){
+  margin-right: 29px;
 }
