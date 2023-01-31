@@ -70,6 +70,60 @@ function renderPopup(){
 
 //burger
 
+// service blur
+
+const btnService = document.querySelectorAll('.container__service__head-btn');
+const cardsServcie = document.querySelectorAll('.container__service__main-box');
+
+
+btnService.forEach((item, index) => {
+    if(index === 0){
+        item.addEventListener('click', ()=>{
+            cardsServcie.forEach((item, index) => {
+                if(index === 5){
+                    item.classList.toggle('blur');
+                } else if(index === 2){
+                    item.classList.toggle('blur');
+                } else if(index === 1){
+                    item.classList.toggle('blur');
+                } else if(index === 3){
+                    item.classList.toggle('blur');
+                }   
+            });
+        });
+    } else if(index === 1){
+        item.addEventListener('click', ()=>{
+            cardsServcie.forEach((item, index) => {
+                if(index === 0){
+                    item.classList.toggle('blur');
+                } else if(index === 1){
+                    item.classList.toggle('blur');
+                } else if(index === 3){
+                    item.classList.toggle('blur');
+                } else if(index === 4){
+                    item.classList.toggle('blur');
+                } else if(index === 5){
+                    item.classList.toggle('blur');
+                };
+            });
+        });
+    } else if(index === 2){
+        item.addEventListener('click', ()=>{
+            cardsServcie.forEach((item, index) => {
+                if(index === 0){
+                    item.classList.toggle('blur');
+                } else if(index === 2){
+                    item.classList.toggle('blur');
+                } else if(index === 4){
+                    item.classList.toggle('blur');
+                };
+            });
+        });
+    }
+});
+
+// service blur
+
 
  
 

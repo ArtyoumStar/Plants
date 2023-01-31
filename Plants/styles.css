@@ -345,6 +345,10 @@ body{
   background-position: center;
 }
 
+.blur{
+  filter: blur(2px)
+}
+
 .container__service__main-box-img-two{
   background-image: url(./img/two.png);
 }
