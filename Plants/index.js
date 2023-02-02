@@ -125,6 +125,59 @@ btnService.forEach((item, index) => {
 // service blur
 
 
+//accardion
+
+const btnPrice = document.querySelectorAll('.accordion-item');
+
+btnPrice.forEach((e)=>{
+    e.addEventListener('click', ()=> {
+        let content = e.nextElementSibling;
+        if(content.style.display){
+            document.querySelectorAll('.accordion-item-body').forEach((e)=> e.style.display = null);
+        } else { 
+            document.querySelectorAll('.accordion-item-body').forEach((e)=> e.style.display = null);
+            content.style.display = content.style.display = 'block';
+        }
+    })
+})
+
+btnPrice.forEach((e)=>{
+    e.addEventListener('click', ()=> {
+        if(e.style.background){
+            btnPrice.forEach((e)=> e.style.background = null);
+        } else { 
+            btnPrice.forEach((e)=> e.style.background = null);
+            e.style.background = e.style.background = '#D6E7D2';
+        }
+    })
+})
+
+btnPrice.forEach((e)=>{
+    e.addEventListener('click', ()=> {
+        if(e.style.borderRadius){
+            btnPrice.forEach((e)=> e.style.borderRadius = null);
+        } else { 
+            btnPrice.forEach((e)=> e.style.borderRadius =null);
+            e.style.borderRadius = e.style.borderRadius ='20px 20px 0 0';
+        }
+    })
+})
+
+btnPrice.forEach((btn) => {
+    btn.addEventListener('click', () => { 
+        if(btn.classList.contains('activeimg')){ 
+            btn.classList.remove('activeimg') 
+        } else {
+            btnPrice.forEach(btn => btn.classList.remove('activeimg'));
+            btn.classList.add('activeimg')
+        };
+    })
+})
+
+
+
+//accardion
+
  
 
 
