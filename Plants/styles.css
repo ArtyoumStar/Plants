@@ -1287,7 +1287,7 @@ body{
   }
   .container__prices{
     justify-content: flex-start;
-    height: 512px;
+    height: auto;
   }
   .container__prices-left{
     margin-top: 19px;
