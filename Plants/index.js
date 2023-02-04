@@ -174,11 +174,82 @@ btnPrice.forEach((btn) => {
     })
 })
 
-
-
 //accardion
 
  
+//dropdown
 
+const btnDrop = document.querySelector('.container__contacts__dropdown-button');
+const content = document.querySelector('.contact__content');
+const contentItem = document.querySelectorAll('.contact__content-item');
+const cardContact = document.querySelectorAll('.card__content');
+
+
+btnDrop.addEventListener('click', () => {
+    if(content.classList.contains('contact__content-visible')){
+        content.classList.remove('contact__content-visible');
+    } else {
+        cardContact.forEach((item) =>{
+            item.classList.remove('card__content-visibilty');
+        });
+        content.classList.add('contact__content-visible');
+        btnDrop.classList.add('dropactiveimg');
+        btnDrop.classList.add('color');
+    }
+})
+
+contentItem.forEach((item, index) => {
+    if(index === 0){
+        item.addEventListener('click', () => {
+            cardContact.forEach((itemCard, indexCard) => {
+                if(indexCard === 0 & btnDrop.classList.contains('dropactiveimg')){
+                    btnDrop.innerText = item.innerText;
+                    content.classList.remove('contact__content-visible');
+                    btnDrop.classList.add('color');
+                    itemCard.classList.add('card__content-visibilty');
+                    btnDrop.classList.remove('dropactiveimg');
+                }
+            })
+        })
+    } else  if(index === 1){
+        item.addEventListener('click', () => {
+            cardContact.forEach((itemCard, indexCard) => {
+                if(indexCard === 1 & btnDrop.classList.contains('dropactiveimg')){
+                    btnDrop.innerText = item.innerText;
+                    content.classList.remove('contact__content-visible');
+                    btnDrop.classList.add('color');
+                    itemCard.classList.add('card__content-visibilty');
+                    btnDrop.classList.remove('dropactiveimg');
+                }
+            })
+        })
+    } else if(index === 2){
+        item.addEventListener('click', () => {
+            cardContact.forEach((itemCard, indexCard) => {
+                if(indexCard === 2 & btnDrop.classList.contains('dropactiveimg')){
+                    btnDrop.innerText = item.innerText;
+                    content.classList.remove('contact__content-visible');
+                    btnDrop.classList.add('color');
+                    itemCard.classList.add('card__content-visibilty');
+                    btnDrop.classList.remove('dropactiveimg');
+                }
+            })
+        })
+    } else if(index === 3){
+        item.addEventListener('click', () => {
+            cardContact.forEach((itemCard, indexCard) => {
+                if(indexCard === 3 & btnDrop.classList.contains('dropactiveimg')){
+                    btnDrop.innerText = item.innerText;
+                    content.classList.remove('contact__content-visible');
+                    btnDrop.classList.add('color');
+                    itemCard.classList.add('card__content-visibilty');
+                    btnDrop.classList.remove('dropactiveimg');
+                }
+            })
+        })
+    }
+})
+
+//dropdown
 
 
